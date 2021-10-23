@@ -1,0 +1,68 @@
+---
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Collections}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+resourse_files:
+  - vignettes/vignetteFigs
+---
+
+<!-------------------------->
+<!-------------------------->
+<!-- HTML styles items    -->
+<!-------------------------->
+<!-------------------------->
+
+<style>
+.button {
+  background-color: #555555;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #555555;
+  color: gold;
+}
+
+</style>
+
+
+<!-------------------------->
+<!-------------------------->
+# Bones {#bones}
+<!-------------------------->
+<!-------------------------->
+<p align="center"> <img src="vignetteFigs/divider.png"></p>
+
+<p align="center">
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#bones-1" target="_blank"><img src="vignetteFigs/bones.jpg" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#bones-1" target="_blank"><img src="vignetteFigs/bones.jpg" width="120"/></a>
+</p>
+
+<!-------------------------->
+<!-------------------------->
+# racoons {#racoons}
+<!-------------------------->
+<!-------------------------->
+<p align="center"> <img src="vignetteFigs/divider.png"></p>
+
+<p align="center">
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#racoons-1" target="_blank">
+<img src="vignetteFigs/racoon.png" width="120"/></a> 
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#racoons-1" target="_blank">
+<img src="vignetteFigs/racoon.png" width="120"/></a> 
+</p>
+

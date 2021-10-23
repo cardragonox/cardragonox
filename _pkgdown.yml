@@ -1,0 +1,31 @@
+title: cardragonox
+
+template:
+  params:
+    bootswatch: cosmo
+    
+home:
+  strip_header: true
+
+navbar:
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "Collections"
+      icon: fas fa-book
+      href: articles/vignette_collections.html
+    - icon: fa-file-code-o
+      text: "Tutorials"
+      href: articles/vignette_tutorials.html
+  right:
+    - icon: "fab fa-twitter fa-lg"
+      href: https://twitter.com/cardragonox
+    - icon: "fa fa-instagram"
+      href: https://instagram.com/cardragonox
+    - icon: "fab fa-facebook-f"
+      href: https://www.facebook.com/cardragonox/
+    - icon: "fab fa-youtube"
+      href: https://www.youtube.com/channel/UCJQMa2k5nAqiLNIJs7egwgQ
+      
+toc:
+  depth: 3

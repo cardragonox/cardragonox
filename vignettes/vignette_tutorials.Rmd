@@ -1,0 +1,28 @@
+---
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Tutorials}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+resourse_files:
+  - vignettes/vignetteFigs
+---
+
+<!-------------------------->
+<!-------------------------->
+# Tutorial 1 {#tutorial1}
+<!-------------------------->
+<!-------------------------->
+<p align="center"> <img src="vignetteFigs/divider.png"></p>
+
+Tutorial 1
+
+<!-------------------------->
+<!-------------------------->
+# Tutorial 2 {#tutorial2}
+<!-------------------------->
+<!-------------------------->
+<p align="center"> <img src="vignetteFigs/divider.png"></p>
+
+Tutorial 2
+
