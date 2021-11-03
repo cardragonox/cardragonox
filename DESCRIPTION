@@ -2,12 +2,15 @@ Package: cardragonox
 Title: cardragonox
 Version: 1.0
 Authors@R: c(person("cardragonox","", email = "cardragonox@gmail.com", role = c("aut", "cre")))
-Description: Cardragonox collections
+Description: Cardragonox collections.
 Depends: R (>= 2.10)
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Imports:
+	magick,
+	grDevices
 Suggests: 
     rmarkdown,
     knitr
