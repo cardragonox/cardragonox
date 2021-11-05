@@ -6,7 +6,11 @@
 \usage{
 blend(
   name = "fig",
-  folder = "output",
+  folder_out = "output",
+  folder_animate = NULL,
+  fps = 2,
+  morph = F,
+  frames = 10,
   folder1 = NULL,
   colors1 = NULL,
   folder2 = NULL,
@@ -22,7 +26,15 @@ blend(
 \arguments{
 \item{name}{Default = "fig". Base name of figure. Will be appended with numbers for each blend.}
 
-\item{folder}{Default = "output". Name of folder to save figs in.}
+\item{folder_out}{Default = "output". Name of folder to save figs in.}
+
+\item{folder_animate}{Default = NULL. Path to folder with animations}
+
+\item{fps}{Default = 2. Frames per second for animations}
+
+\item{morph}{Default = F. Morph animations}
+
+\item{frames}{Default = 10. Frames used for morphing}
 
 \item{folder1}{Default = NULL. Folder with images for layer 1.}
 

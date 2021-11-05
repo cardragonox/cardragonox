@@ -3,7 +3,11 @@
 #' Blend multiple layers of images into various combinations
 #'
 #' @param name Default = "fig". Base name of figure. Will be appended with numbers for each blend.
-#' @param folder Default = "output". Name of folder to save figs in.
+#' @param folder_out Default = "output". Name of folder to save figs in.
+#' @param folder_animate Default = NULL. Path to folder with animations
+#' @param fps Default = 2. Frames per second for animations
+#' @param morph Default = F. Morph animations
+#' @param frames Default = 10. Frames used for morphing
 #' @param folder1 Default = NULL. Folder with images for layer 1.
 #' @param colors1 Default = NULL. (OPTIONAL) List of colors to combine for layer 1 images.
 #' @param folder2 Default = NULL. Folder with images for layer 2.
@@ -19,7 +23,11 @@
 #' @export
 
 blend <- function(name = "fig",
-                  folder = "output",
+                  folder_out = "output",
+                  folder_animate = NULL,
+                  fps = 2,
+                  morph = F,
+                  frames = 10,
                   folder1 = NULL,
                   colors1 = NULL,
                   folder2 = NULL,
@@ -33,7 +41,7 @@ blend <- function(name = "fig",
 
   ## For Testing
   # name = "fig"
-  # folder = "output"
+  # folder_out = "output"
   # folder1 = NULL
   # colors1 = NULL
   # folder2 = NULL
@@ -53,6 +61,8 @@ blend <- function(name = "fig",
   NULL -> images_1 -> images_2 -> images_3 -> images_4 -> images_5 ->
     colors_1 -> colors_2 -> colors_3 -> colors_4 -> colors_5
 
+  count = 1
+
   # Internal color check
   colors_exist <- function(x) {
     sapply(x, function(X) {
@@ -67,11 +77,19 @@ blend <- function(name = "fig",
   #..........................
 
   # Check folder
-  if(!dir.exists(folder)){
-    dir.create(folder)
+  if(!dir.exists(folder_out)){
+    dir.create(folder_out)
   } else {
-      if(!grepl("/",folder)){folder <- paste0(getwd(),"/",folder)}
+      if(!grepl("/",folder_out)){folder_out <- paste0(getwd(),"/",folder_out)}
+  }
+
+  # Check if chosen name images already exist and then set the counter accordingly
+  existing_files <- sort(list.files(folder_out))
+  if(length(existing_files)>0){
+    if(grepl(name,existing_files)){
+      count <- as.numeric(gsub(".png|.gif","",gsub(paste0(name," "),"",existing_files[length(existing_files)])))+1; count
     }
+  }
 
   folders_list <- list()
   if(!is.null(folder1)){folders_list <- append(folders_list, list(folder1=folder1))}
@@ -88,6 +106,8 @@ blend <- function(name = "fig",
   if(!is.null(colors4)){colors_list <- append(colors_list, list(colors4=colors4))}
   if(!is.null(colors5)){colors_list <- append(colors_list, list(colors5=colors5))}
   names(colors_list)
+
+  if(length(folders_list)>0){
 
   # Check folders exist
   for(i in 1:length(folders_list)){
@@ -311,35 +331,71 @@ blend <- function(name = "fig",
                     image_e <- magick::image_mosaic(image_e); image_e
 
                     # Print the combined images
-                    magick::image_write(image_e, path = paste0(folder,"/",name,"_",i,"_",j,"_",k,"_",l,"_",m,".png"), format = "png")
-                    print(paste0("Figure saved as : ", paste0(folder,"/",name,"_",i,"_",j,"_",k,"_",l,"_",m,".png")))
+                    magick::image_write(image_e, path = paste0(folder_out,"/",name," ",count,".png"), format = "png")
+                    print(paste0("Figure saved as : ", paste0(folder_out,"/",name," ",count,".png")))
+                    count = count+1
 
                   }} else {
                     # Print the combined images
-                    magick::image_write(image_d, path = paste0(folder,"/",name,"_",i,"_",j,"_",k,"_",l,".png"), format = "png")
-                    print(paste0("Figure saved as : ", paste0(folder,"/",name,"_",i,"_",j,"_",k,"_",l,".png")))
+                    magick::image_write(image_d, path = paste0(folder_out,"/",name," ",count,".png"), format = "png")
+                    print(paste0("Figure saved as : ", paste0(folder_out,"/",name," ",count,".png")))
+                    count = count+1
                   }
 
               }} else {
                 # Print the combined images
-                magick::image_write(image_c, path = paste0(folder,"/",name,"_",i,"_",j,"_",k,".png"), format = "png")
-                print(paste0("Figure saved as : ", paste0(folder,"/",name,"_",i,"_",j,"_",k,".png")))
+                magick::image_write(image_c, path = paste0(folder_out,"/",name," ",count,".png"), format = "png")
+                print(paste0("Figure saved as : ", paste0(folder_out,"/",name," ",count,".png")))
+                count = count+1
               }
 
           }} else {
             # Print the combined images
-            magick::image_write(image_b, path = paste0(folder,"/",name,"_",i,"_",j,".png"), format = "png")
-            print(paste0("Figure saved as : ", paste0(folder,"/",name,"_",i,"_",j,".png")))
+            magick::image_write(image_b, path = paste0(folder_out,"/",name," ",count,".png"), format = "png")
+            print(paste0("Figure saved as : ", paste0(folder_out,"/",name," ",count,".png")))
+            count = count+1
           }
 
 
         }} else {
           # Print the combined images
-          magick::image_write(image_a, path = paste0(folder,"/",name,"_",i,".png"), format = "png")
-          print(paste0("Figure saved as : ", paste0(folder,"/",name,"_",i,".png")))
+          magick::image_write(image_a, path = paste0(folder_out,"/",name," ",count,".png"), format = "png")
+          print(paste0("Figure saved as : ", paste0(folder_out,"/",name," ",count,".png")))
+          count = count+1
         }
     }} # For image 1
+  } # If folders list > 1
 
+  #...........................
+  # Animate
+  #..........................
+
+  if(!is.null(folder_animate)){
+    if(dir.exists(folder_animate)){
+
+      images_to_animate <- list.files(folder_animate, full.names = T)
+
+      if(length(images_to_animate)>1){
+
+        for(i in 1:length(images_to_animate)){
+          if(i==1){images_animate = magick::image_read(images_to_animate[[i]])}else{
+            images_animate <- magick::image_join(images_animate,magick::image_read(images_to_animate[[i]]))
+          }
+        }
+
+        if(morph){
+          image_animated <- magick::image_morph(images_animate, frames = frames) %>%
+            magick::image_animate(fps = fps)
+        } else {
+          image_animated <- magick::image_animate(images_animate, fps = fps)
+        }
+
+        magick::image_write(image_animated, path = paste0(folder_out,"/",name," ",count,".gif"), format = "gif")
+        print(paste0("Figure saved as : ", paste0(folder_out,"/",name," ",count,".gif")))
+
+      }
+    }
+  }
 
 
 } # Close blend function
