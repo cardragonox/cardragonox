@@ -42,6 +42,10 @@ blend <- function(name = "fig",
   ## For Testing
   # name = "fig"
   # folder_out = "output"
+  # folder_animate = NULL
+  # fps = 2
+  # morph = F
+  # frames = 10
   # folder1 = NULL
   # colors1 = NULL
   # folder2 = NULL
@@ -87,7 +91,7 @@ blend <- function(name = "fig",
   existing_files <- sort(list.files(folder_out))
   if(length(existing_files)>0){
     if(grepl(name,existing_files)){
-      count <- as.numeric(gsub(".png|.gif","",gsub(paste0(name," "),"",existing_files[length(existing_files)])))+1; count
+      count <- max(as.numeric(gsub(".png|.gif","",gsub(paste0(name," "),"",existing_files))))+1; count
     }
   }
 
