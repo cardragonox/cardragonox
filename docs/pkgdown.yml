@@ -1,0 +1,8 @@
+pandoc: '2.12'
+pkgdown: 1.6.1
+pkgdown_sha: ~
+articles:
+  vignette_collections: vignette_collections.html
+  vignette_tutorials: vignette_tutorials.html
+last_built: 2021-11-07T23:45Z
+

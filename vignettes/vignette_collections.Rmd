@@ -40,29 +40,45 @@ resourse_files:
 
 <!-------------------------->
 <!-------------------------->
-# Bones {#bones}
+# SkullDudes {#skulldudes}
 <!-------------------------->
 <!-------------------------->
 <p align="center"> <img src="vignetteFigs/divider.png"></p>
 
 <p align="center">
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#bones-1" target="_blank"><img src="vignetteFigs/bones.jpg" width="120"/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 1.png" width="120"/></a>
 <img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#bones-1" target="_blank"><img src="vignetteFigs/bones.jpg" width="120"/></a>
-</p>
-
-<!-------------------------->
-<!-------------------------->
-# racoons {#racoons}
-<!-------------------------->
-<!-------------------------->
-<p align="center"> <img src="vignetteFigs/divider.png"></p>
-
-<p align="center">
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#racoons-1" target="_blank">
-<img src="vignetteFigs/racoon.png" width="120"/></a> 
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 2.png" width="120"/></a>
 <img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#racoons-1" target="_blank">
-<img src="vignetteFigs/racoon.png" width="120"/></a> 
-</p>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 3.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 4.png" width="120"/></a>
 
+<br>
+
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 5.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 6.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 7.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 8.png" width="120"/></a>
+
+<br>
+
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 9.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 10.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 11.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 12.png" width="120"/></a>
+
+<br>
+
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 13.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 14.png" width="120"/></a>
+<img src="vignetteFigs/blank.png" height="40"/>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank">
+</p>
