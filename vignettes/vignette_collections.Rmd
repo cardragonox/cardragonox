@@ -45,6 +45,8 @@ resourse_files:
 <!-------------------------->
 <p align="center"> <img src="vignetteFigs/divider.png"></p>
 
+**Policy ID: e20ac2ae7c9003805c84d6ab5153fde007c37fcede66a0a9f40bd87b**
+
 <p align="center">
 <a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 1.png" width="120"/></a>
 <img src="vignetteFigs/blank.png" height="40"/>
