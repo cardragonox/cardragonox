@@ -80,5 +80,5 @@ resourse_files:
 <img src="vignetteFigs/blank.png" height="40"/>
 <a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 14.png" width="120"/></a>
 <img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank">
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 15.gif" width="120"/></a>
 </p>
