@@ -1,4 +1,6 @@
-# pkgdown <img src="man/figures/logo.png" align="right" />
+# Cardragonox
+
+[![](man/figures/logo.png)](https://cardragonox.github.io/cardragonox/)
 
 # Accounts
 <p align="center"> <img src="man/figures/divider.png"></p>
