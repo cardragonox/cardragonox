@@ -1,6 +1,6 @@
 # Cardragonox
 
-[![](man/figures/logo.png)](http://www.host.com/link.html)
+![](man/figures/logo.png)
 
 # Accounts
 <p align="center"> <img src="man/figures/divider.png"></p>

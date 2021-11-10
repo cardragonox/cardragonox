@@ -45,42 +45,20 @@ resourse_files:
 <!-------------------------->
 <p align="center"> <img src="vignetteFigs/divider.png"></p>
 
-**Policy ID: e20ac2ae7c9003805c84d6ab5153fde007c37fcede66a0a9f40bd87b**
-
 <p align="center">
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 1.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 2.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 3.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 4.png" width="120"/></a>
-
-<br>
-
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 5.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 6.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 7.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 8.png" width="120"/></a>
-
-<br>
-
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 9.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 10.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 11.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 12.png" width="120"/></a>
-
-<br>
-
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 13.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 14.png" width="120"/></a>
-<img src="vignetteFigs/blank.png" height="40"/>
-<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 15.gif" width="120"/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 1.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 2.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 3.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 4.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 5.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 6.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 7.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 8.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 9.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 10.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 11.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 12.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 13.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 14.png" width="120" padding=20/></a>
+<a href="https://cardragonox.github.io/cardragonox/articles/vignette_collections.html#skulldudes" target="_blank"><img src="vignetteFigs/SkullDude 15.gif" width="120" padding=20/></a>
 </p>

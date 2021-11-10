@@ -1,13 +1,10 @@
 title: cardragonox
-
-template:
-  params:
-    bootswatch: cosmo
-    
+   
 home:
   strip_header: true
 
 navbar:
+  type: inverse
   left:
     - icon: fa-home
       href: index.html
