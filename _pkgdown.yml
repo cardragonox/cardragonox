@@ -2,9 +2,12 @@ title: cardragonox
    
 home:
   strip_header: true
+  
+template:
+  params:
+    bootswatch: cosmo
 
 navbar:
-  type: inverse
   left:
     - icon: fa-home
       href: index.html
