@@ -4,7 +4,6 @@ Version: 1.0
 Authors@R: c(person("cardragonox","", email = "cardragonox@gmail.com", role = c("aut", "cre")))
 Description: Cardragonox collections.
 Depends: R (>= 2.10)
-URL: https://github.com/cardragonox/cardragonox
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

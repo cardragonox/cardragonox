@@ -23,6 +23,8 @@ navbar:
       href: https://www.facebook.com/cardragonox/
     - icon: "fab fa-youtube"
       href: https://www.youtube.com/channel/UCJQMa2k5nAqiLNIJs7egwgQ
+    - icon: "fab fa-github"
+      href: https://github.com/cardragonox/cardragonox/
       
 toc:
   depth: 3
